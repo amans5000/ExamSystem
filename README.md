@@ -1,17 +1,17 @@
-# 🧠 MCQ Exam System (Terminal-Based)
+# MCQ Exam System (Terminal-Based)
 
 A terminal-based **MCQ (Multiple Choice Questions) Exam System** built in C++ using socket programming and file management. This system supports both **students** and **instructors**, allowing practice and scheduled exams with detailed performance analysis.
 
 ---
-## 🎥 Project Demo
+## Project Demo
 
 Watch the full project and ppt description here: https://youtu.be/n-OU9DSvR0w
 
-## 📊 PPT Presentation
+## PPT Presentation
 
 View the project presentation slides here: [MCQ Exam System Presentation](https://www.canva.com/design/DAGhsuBMzIk/aZwBbHeJRop1kpBo4PQoGA/view?utm_content=DAGhsuBMzIk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hcff6588bde)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 MCQ_EXAM_SYSTEM/
@@ -35,9 +35,9 @@ MCQ_EXAM_SYSTEM/
 
 ---
 
-## 🧑‍💻 Features
+## Features
 
-### 👨‍🎓 Student Panel
+### Student Panel
 - Take **Practice Test** (unlimited attempts)
 - Take **Scheduled Test** (only at scheduled time, one attempt)
 - View **Dashboard** with:
@@ -48,24 +48,24 @@ MCQ_EXAM_SYSTEM/
   - Performance in the exam
   - Leaderboard
 
-### 👨‍🏫 Instructor Panel
+### Instructor Panel
 - Upload new exams (in structured `.txt` format)
 - Upload seating pattern(not functional)
 - View student performance with per-question statistics
 - View all uploaded exams
 - Schedule exams with a specific date and time
 
-### 🔐 Authentication
+### Authentication
 - Register/Login with hashed password storage
 - Role-based access (student/instructor)
 
-### 📊 Exam Types
+### Exam Types
 - **Practice Test**: Free attempt anytime
 - **Scheduled Test**: Set by instructor with start time, single attempt only
 
 ---
 
-## 📄 Question File Format
+## Question File Format
 
 Each question must follow this structure:
 
@@ -86,7 +86,7 @@ Multi-line questions are supported under `Q:` until an option (`A)` to `D)`) beg
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. **Instructor uploads** an exam file and selects exam type (Practice/Scheduled)
 2. **Student logs in**, views available exams
@@ -96,7 +96,7 @@ Multi-line questions are supported under `Q:` until an option (`A)` to `D)`) beg
 6. **Per question analysis and leaderboard** shown once exam is over
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - C++ (Core logic)
 - POSIX Sockets (Client-Server Communication)
@@ -106,7 +106,7 @@ Multi-line questions are supported under `Q:` until an option (`A)` to `D)`) beg
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Compile Server
 ```bash
@@ -124,7 +124,7 @@ make
 
 ---
 
-## 📌 Future Enhancements
+## Future Enhancements
 
 - GUI with Qt or Web Frontend
 - Encrypted file transmission
@@ -134,6 +134,6 @@ make
 
 ---
 
-## 🙌 Author
+## Author
  
 Developed by NIT Durgapur Students- Aman Brijbhushan Chauhan, Sounak Bhattacharya, Raj Patel, Sneha Saha, Mampi Mahato, Aman Kachhap, Ahmed Khalid Hafiz,  Aayush, Rage Sai Santosh, Abir Soren
